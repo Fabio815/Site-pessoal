@@ -1,0 +1,14 @@
+* {
+    padding: 70px;
+    margin: 0px;
+}
+
+.container-img {
+    border: 1px solid black;
+    display: inline-block;
+}
+
+.contianer-oeste img {
+    height: 250px;
+    width: 200px;
+}
