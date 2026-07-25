@@ -17,7 +17,7 @@ header {
 }
 
 .header-card {
-    width: 260px;
+    width: 290px;
     height: 400px;
     background-color: #E8F2FA;
     border-radius: 6px;
@@ -42,10 +42,25 @@ header {
 }
 
 .header-card-contatos li {
-    margin-bottom: 5px;
-    border: 1px solid rgb(228, 223, 223);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 5px;
+    padding: 8px;
+    border: 2px solid rgb(228, 223, 223);
     border-radius: 4px;
-    padding: 10px;
+}
+
+.header-card-contatos li a {
+    flex: 1;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
 }
 
 .header-card-contatos ul {
