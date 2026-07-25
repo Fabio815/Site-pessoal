@@ -1,11 +1,12 @@
 * {
     padding: 0px;
     margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-.container-principal {
+/*.container-principal {
     border: 1px solid black;
-}
+}*/
 
 header {
     display: flex;
@@ -16,8 +17,8 @@ header {
 }
 
 .header-card {
-    width: 350px;
-    height: 500px;
+    width: 260px;
+    height: 400px;
     background-color: #E8F2FA;
     border-radius: 6px;
 
@@ -32,14 +33,43 @@ header {
     height: 200px;
     object-fit: cover;
     border-radius: 50%;
+    padding: 5px;
+    box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175);
 }
+
+.header-card-contatos {
+    width: 100%;
+}
+
+.header-card-contatos li {
+    margin-bottom: 5px;
+    border: 1px solid rgb(228, 223, 223);
+    border-radius: 4px;
+    padding: 10px;
+}
+
+.header-card-contatos ul {
+    list-style: none;
+    margin-top: 20px;
+    padding: 0;
+}
+
+.header-card-tag {
+    padding: 7px;
+    margin-top: 10px;
+    background-color: blue;
+    border-radius: 6px;
+    font-weight: 600;
+    font-size: 12px;
+    color: white;
+}
+
 
 .header-informacoes {
     width: 900px;
     padding: 20px;
     background-color: #ebf1f7;
     border-radius: 4px;
-    
 }
 
 .header-informacoes ul {
