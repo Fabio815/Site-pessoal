@@ -17,7 +17,6 @@ header {
     justify-content: center;
     gap: 10px;
     padding: 20px;
-    border: 1px solid black;
 }
 
 .conteudo {
@@ -28,6 +27,7 @@ header {
     width: 290px;
     height: 400px;
     background-color: #E8F2FA;
+    border: 2px solid #d2d2d2;
     border-radius: 6px;
 
     display: flex;
@@ -89,10 +89,11 @@ a {
 
 
 .header-informacoes {
+    border: 2px solid #d2d2d2;
     width: 900px;
     padding: 20px;
     background-color: #ebf1f7;
-    border-radius: 4px;
+    border-radius: 6px;
 }
 
 .header-informacoes ul {
@@ -115,18 +116,33 @@ a {
 }
 
 .main-container {
+    border: 2px solid #d2d2d2;
+    border-radius: 6px;
+    width: 900px;
     margin-top: 10px;
-    border: 1px solid black;
+    padding: 20px;
+}
+
+.main-container-cards {
+    margin-top: 10px;
     display: flex;
     flex-wrap: wrap;
-    gap: 10px;
-    padding: 10px;
+    gap: 12px;
     justify-content: center;
 }
 
 .main-container-card-projetos {
-    border: 2px solid black;
+    border: 2px solid #d2d2d2;
     border-radius: 6px;
-    width: 400px;
-    height: 120px;
+    width: 420px;
+    height: 140px;
+}
+
+p {
+    line-height: 1.7;
+    text-align: justify;
+}
+
+.mb-12 {
+    margin-bottom: 12px;
 }
