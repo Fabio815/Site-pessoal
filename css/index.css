@@ -59,6 +59,7 @@ header {
     margin-top: 5px;
     padding: 8px;
     border: 2px solid rgb(228, 223, 223);
+    background-color: #edf2f7;
     border-radius: 4px;
 }
 
@@ -139,11 +140,44 @@ a {
 }
 
 .main-container-card-projetos {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
     border: 2px solid #d2d2d2;
     border-radius: 6px;
     flex: 1 1 400px;
-    max-width: 420px;
-    min-height: 140px;
+    max-width: 390px;
+
+    padding: 10px 25px 10px 25px;
+    gap: 10px;
+}
+
+.main-container-card-projetos ul {
+    font-size: 14px;
+}
+
+.main-container-card-projetos img {
+    width: 150px;
+    height: auto;
+}
+
+.card-conteudo {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.card-conteudo h3, .card-conteudo p, .card-conteudo ul {
+    margin: 0;
+}
+
+.card-conteudo ul {
+    padding-left: 18px;
+}
+
+.card-conteudo li {
+    list-style: none;
 }
 
 p {
@@ -162,7 +196,7 @@ footer {
     padding: 20px;
 
     border-top: 2px solid #e9e8e8;
-    background-color: #f8fafc;
+    background-color: #f4f7fa;
     box-sizing: border-box;
 }
 

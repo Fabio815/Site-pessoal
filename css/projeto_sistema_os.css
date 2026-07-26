@@ -1,0 +1,9 @@
+.imagem-projeto img {
+    width: 100%;
+    max-width: 850px;
+    height: auto;
+
+    border: 2px solid #dcdcdc;
+    border-radius: 4px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
