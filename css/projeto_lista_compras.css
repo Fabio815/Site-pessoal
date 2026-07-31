@@ -1,0 +1,10 @@
+.imagem-aplicacao img {
+    width: 100%;
+    max-width: 800px;
+}
+
+.imagem-aplicacao {
+    border-radius: 6px;
+    border: 2px solid #dcdcdc;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
